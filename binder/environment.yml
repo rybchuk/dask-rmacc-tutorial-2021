@@ -1,4 +1,4 @@
-name: dask-mini
+name: dask
 channels:
   - conda-forge
 dependencies:
