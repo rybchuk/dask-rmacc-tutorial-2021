@@ -9,6 +9,7 @@ dependencies:
   - dask-ml
   - jupyterlab
   - ipykernel
+  - ipywidgets
   - nodejs
   - tornado
   - numba
