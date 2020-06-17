@@ -1,12 +1,13 @@
-name: dask
+name: dask-tutorial
 channels:
   - conda-forge
 dependencies:
   - python=3.7
-  - bokeh
+  - bokeh=2.0  # Pinned until distributed 2.19 release due to breaking change
   - dask
   - dask-ml
   - jupyterlab
+  - ipykernel
   - nodejs
   - tornado
   - numba
