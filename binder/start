@@ -16,7 +16,7 @@ cp binder/sshd_config .ssh/sshd_config
 /usr/sbin/sshd -f .ssh/sshd_config -D &
 printf "Host localhost\n  Port 2222\n" > .ssh/config
 sleep 5  # Give ssh a chance to start
-ssh-keyscan -H localhost >> ~/.ssh/known_hosts
+ssh-keyscan -p 2222 -H localhost >> ~/.ssh/known_hosts
 printf '\n\nexport PATH="/srv/conda/envs/notebook/bin:/srv/conda/condabin:/home/jovyan/.local/bin:/home/jovyan/.local/bin:/srv/conda/envs/notebook/bin:/srv/conda/bin:/srv/npm/bin:$PATH"\n' >> .bashrc
 
 exec "$@"
