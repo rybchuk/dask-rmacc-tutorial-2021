@@ -27,6 +27,12 @@ dependencies:
   - xarray
   - requests
   - pytables
+  - fsspec
+  - zarr
+  - hvplot
+  - holoviews
+  - cartopy
+  - geoviews
   - pip:
     - mimesis
     - dask_labextension  

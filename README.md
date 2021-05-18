@@ -1,10 +1,10 @@
-# Dask Video Tutorial 2020
+# RMACC Dask Tutorial 2021
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jacobtomlinson/dask-video-tutorial-2020/master?urlpath=lab)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/rybchuk/dask-rmacc-tutorial-2021/master?urlpath=lab)
 
 Dask provides advanced parallelism for analytics, enabling performance at scale for the tools you love.
 
-In this 90 minute tutorial we will cover an overview of Dask including dataframes, arrays, machine learning and distributed scheduling.
+In this 90 minute tutorial we will cover an overview of Dask including dataframes, arrays, and distributed scheduling. We will also do some lightweight analysis of a 16 TB dataset of sea surface temperatures.
 
 ### Schedule
 
@@ -14,7 +14,6 @@ In this 90 minute tutorial we will cover an overview of Dask including dataframe
 - Introductory Lab (10 mins) and results (5 mins)
 - Dask GUI and dashboards (10 mins)
 - Dask Array (10 mins)
-- Dask ML with lab (10 mins) and results (5 mins)
-- Bags and Futures (10 mins)
 - Distributed (10 mins)
+- Analysis of sea surface temperature (15 mins)
 - Wrapup and close (5 mins)
